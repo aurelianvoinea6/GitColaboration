@@ -34,4 +34,8 @@ def serve_any_other_file(path):
     response.cache_control.max_age = 0 # avoid cache memory
     return response
 
+<<<<<<< HEAD
 app.run(host='0.0.0.0',port=3000, debug=True, extra_files=['./',])
+=======
+app.run(host='0.0.0.0',port=3000, debug=True, extra_files=['./',])
+>>>>>>> 9c031413bad2bf0de1f6a4f08f525519be873100
